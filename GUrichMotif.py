@@ -5,7 +5,14 @@ Created on Wed Mar  4 19:38:09 2020
 
 @author: mahejabeennidhi
 """
+"""
+Furthur improvements to be done:
 
+- Create a variable so that the gt or tg pairs occupy at least 40% of the string
+- Use input instead of having to change the code each time
+- Convert T to U
+
+"""
 
 def checkforGUrich(seg):
     for i in seg:
