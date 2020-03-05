@@ -6,7 +6,6 @@ Created on Wed Mar  4 19:38:09 2020
 @author: mahejabeennidhi
 """
 
-#need to make a variable that 
 
 def checkforGUrich(seg):
     for i in seg:
