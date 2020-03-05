@@ -6,10 +6,12 @@ Created on Wed Mar  4 19:38:09 2020
 @author: mahejabeennidhi
 """
 
+#need to make a variable that 
+
 def checkforGUrich(seg):
     for i in seg:
         tempString = ''.join(i)
-        yield (tempString.find("gtgt")>-1 or tempString.find("tgtg")>-1) and (tempString.count("gt")>=6 or tempString.count("tg")>=6)
+        yield (tempString.find("gtgt")>-1 or tempString.find("tgtg")>-1) and (tempString.count("gt")>=5 or tempString.count("tg")>=5)
             
 
 def window(fseq, window_size=18):
